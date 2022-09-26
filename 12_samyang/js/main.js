@@ -33,10 +33,10 @@ $(function(){
       });
     // product-new
     $('.new_list').slick({
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 1,
         slidesToScroll:1,
-        infinite: false,
+        infinite: true,
         arrows: false,
         dots:true
     });  
